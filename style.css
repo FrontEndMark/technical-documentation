@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    line-height: 1.5;
+    width: 100vw;
+    height: 100vh;
+    font-size: 12pt;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 94, 182);
+    font-weight: 400;
+}
+
+#navbar {
+    width: 75%;
+    height: 100vh;
+    float: left;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    #navbar ul {
+        width: 100vw;
+        height: 225px;
+        margin: 0;
+        padding: 10px;
+        top: 0;
+      }
+    
+      #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        max-height: 275px;
+        z-index: 1;
+        border: none;
+    }
+    
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 275px;
+    }
+
+    .main-section {
+        font-size: 0.80rem;
+    }
+
+    code {
+        font-size: 0.52rem;
+    }
+}
+
+#title {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.head {
+    margin-top: 30px;
+    margin-left: -20px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+    height: 100vh;
+}
+
+ul {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(109, 108, 108);
+}
+
+hr {
+    margin: 10px 0px;
+    border-color: rgb(240, 240, 240);
+    border-style: solid;
+}
+
+#main-doc {
+    margin-left: 35px;
+    font-size: 0.90rem;
+    height: 100vh;
+    float: right;
+    overflow: auto;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.main-section {
+    margin-left: 20px;
+}
+
+pre {
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: rgb(99, 99, 99);
+}
+
+footer {
+    padding: 50px 0 0 15px;
+    text-align: right;
+    width: 100%;
+    box-sizing: border-box;
+}
